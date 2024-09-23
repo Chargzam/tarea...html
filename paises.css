@@ -1,0 +1,33 @@
+table,
+th,
+td {
+    border: 2px solid blue;
+    text-align: center;
+}
+tr:nth-child(even){
+    background-color: rgb(185, 217, 206);
+    text-align: center;
+}
+caption {
+    caption-side: top;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.imagen {
+    width: 300px;
+    height: 200px;
+}
+a:link, a:visited {
+    background-color: #36bbf4;
+    color: white;
+    padding: 14px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: yellowgreen;
+    color:black;
+  }
